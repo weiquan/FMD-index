@@ -1,2 +1,2 @@
-#FMD-index from BWA
+# FMD-index from BWA
 
