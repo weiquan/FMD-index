@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	idx = bwa_idx_load(argv[1], BWA_IDX_ALL); // load the BWA index
+	idx = bwa_idx_load(argv[1], BWA_IDX_ALL); // load the whole BWA index, bns, pac, bwt
 	if (NULL == idx) {
 		fprintf(stderr, "Index load failed.\n");
 		exit(EXIT_FAILURE);
